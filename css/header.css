@@ -1,0 +1,91 @@
+header {
+    position: relative;
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color-lighter));
+    height: 600px;
+    width: 100%;
+    padding: 0 60px;
+}
+
+header > .site-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FFFFFF;
+}
+
+header > .menu-navegation > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    width: 100%;
+    font-size: 16px;
+    color: var(--secondary-color);
+    padding: 20px 0 60px 0;
+}
+
+header > .menu-navegation > ul > li {
+    cursor: pointer;
+}
+
+header > .menu-navegation > ul > li:hover {
+    color: #FFFFFF;
+}
+
+header > .header-content-container > .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color:  var(--primary-color-darker);
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+}
+
+header > .header-content-container  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    height: 500px;
+    padding: 0 180px;
+}
+
+header > .header-content-container > .headline > h1 {
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--secondary-color);
+    width: 300px;
+}
+
+header > .header-content-container > .headline > h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+header > .header-content-container > .acai-fruit {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 350px;
+    rotate: -15deg;
+    filter: blur(3px);
+}
+
+header > .header-content-container > .acai-marketing {
+    position: absolute;
+    bottom: -5px;
+    right: 100px;
+    width: 340px;
+}
+
+header > .header-content-container > .acai-cup {
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+    width: 320px;
+    rotate: 15deg;
+}
