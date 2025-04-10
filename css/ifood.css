@@ -1,0 +1,50 @@
+main > .section-ifood {
+    position: relative;
+    width: 100%;
+    background-color: var(--secondary-color);
+    height: 420px;
+}
+
+main > .section-ifood > .ifood-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    max-width: 1113px;
+    height: 100%;
+    margin: auto;
+    padding: 0 40px;
+}
+
+main > .section-ifood > .ifood-container > .ifood-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+main > .section-ifood > .ifood-container > .ifood-content > h2 {
+    color: #4E0D5E;
+    font-family: "Spicy Rice";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 340px;
+}
+
+main > .section-ifood > .ifood-container > .ifood-content > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background: var(--primary-color);
+    width: 340px;
+    height: 68px;
+    text-align: center;
+    font-family: "Spicy Rice";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+}
