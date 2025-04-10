@@ -1,0 +1,192 @@
+main > .section-menu-acai-options {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+main > .section-menu-acai-options > h2 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #4E0D5E;
+    text-align: center;
+    width: 380px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options  {
+    display: flex;
+    gap: 35px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 20px 20px 20px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 252px;
+    height: 342px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(1), main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(3) {
+    background-color: var(--primary-color);
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(2), main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(4) {
+    background-color: var(--secondary-color);
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-300 {
+    width: 130px;
+    top: -140px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-500 {
+    width: 150px;
+    top: -160px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-700 {
+    width: 170px;
+    top: -190px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-1l {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 190px;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > div > h3 {
+    text-align: center;
+    font-family: "Spicy Rice";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > div > p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(1) > div, 
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(3) > div {
+    color: var(--secondary-color);
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(2) > div, main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(4) > div {
+    color: var(--primary-color);
+}
+
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > div > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background: var(--primary-color);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(1) > div > a, main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(3) > div > a {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(2) > div > a, main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option:nth-child(4) > div > a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+main > .section-menu-acai-options > .see-complete-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    height: 68px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Spicy Rice";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 1024px) {
+    main > .section-menu-acai-options > .menu-acai-options  {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        width: 540px;
+    }
+
+    main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option{
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 768px) {
+    main > .section-menu-acai-options {
+        padding: 50px 20px;
+    }
+
+    main > .section-menu-acai-options > h2 {
+        font-size: 36px;
+        line-height: 48px;
+        width: 250px;
+    }
+
+    main > .section-menu-acai-options > .menu-acai-options  {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        width: 100%;
+    }
+
+    main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option{
+        margin-bottom: 80px;
+        max-width: none;
+    }
+
+    main > .section-menu-acai-options > .see-complete-menu-btn {
+        width: 100%;
+        margin-top: -120px;
+    }
+}

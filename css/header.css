@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color-lighter));
-    height: 600px;
+    height: 100%;
     width: 100%;
     padding: 0 60px;
 }
@@ -59,11 +59,13 @@ header > .header-content-container > .headline > h1 {
     line-height: 80px;
     color: var(--secondary-color);
     width: 300px;
+    text-align: center;
 }
 
 header > .header-content-container > .headline > h2 {
     font-size: 24px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 header > .header-content-container > .acai-fruit {
@@ -77,7 +79,7 @@ header > .header-content-container > .acai-fruit {
 
 header > .header-content-container > .acai-marketing {
     position: absolute;
-    bottom: -5px;
+    bottom: 0px;
     right: 100px;
     width: 340px;
 }
@@ -88,4 +90,117 @@ header > .header-content-container > .acai-cup {
     left: 500px;
     width: 320px;
     rotate: 15deg;
+}
+
+@media (max-width: 1400px) {
+    header > .menu-navegation > ul {
+        padding: 20px 0 100px 0;
+    }
+    header > .header-content-container > .headline {
+        gap: 20px;
+        width: 350px;
+        height: 350px;
+    }
+    
+    header > .header-content-container  {
+        padding: 0 100px;
+        height: 460px;
+    }
+    
+    header > .header-content-container > .headline > h1 {
+        font-size: 48px;
+        line-height: 60px;
+        width: 250px;
+    }
+    
+    header > .header-content-container > .acai-fruit {
+        left: -20px;
+        width: 300px;
+    }
+    
+    header > .header-content-container > .acai-marketing {
+        right: 0px;
+        width: 300px;
+    }
+    
+    header > .header-content-container > .acai-cup {
+        left: 360px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 0 30px;
+    }
+
+    header > .menu-navegation > ul {
+        gap: 40px;
+    }
+    
+    header > .header-content-container  {
+        width: fit-content;
+    }
+
+    
+    header > .header-content-container > .acai-fruit {
+        left: -20px;
+        bottom: 30px;
+        width: 250px;
+    }
+    
+    header > .header-content-container > .acai-marketing {
+        display: none;
+    }
+    
+    header > .header-content-container > .acai-cup {
+        left: 350px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 500px;
+        padding: 0 0px;
+    }
+    header > .header-content-container  {
+        align-items: center;
+        height: 100%;
+    }
+    header > .menu-navegation {
+        display: none;
+    }
+
+    header > .header-content-container > .headline {
+        gap: 20px;
+        width: 250px;
+        height: 250px;
+    }
+    
+    header > .header-content-container  {
+        height: 100%;
+        padding: 0 50px;
+    }
+    
+    header > .header-content-container > .headline > h1 {
+        font-size: 36px;
+        line-height: 48px;
+        width: 180px;
+    }
+    
+    header > .header-content-container > .headline > h2 {
+        font-size: 18px;
+    }
+    
+    header > .header-content-container > .acai-fruit {
+        bottom: 10px;
+        left: -20px;
+        width: 200px;
+    }
+  
+    header > .header-content-container > .acai-cup {
+        left: 200px;
+        width: 150px;
+    }
 }
