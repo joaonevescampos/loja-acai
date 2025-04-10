@@ -48,3 +48,37 @@ main > .section-ifood > .ifood-container > .ifood-content > a {
     line-height: normal;
     border-radius: 30px;
 }
+
+@media (max-width: 768px) {
+    main > .section-ifood {
+        height: 320px;
+    }
+
+    main > .section-ifood > .ifood-container {
+        padding: 0 30px;
+        gap: 40px;
+    }
+    
+    main > .section-ifood > .ifood-container > .ifood-content{
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+    
+    main > .section-ifood > .ifood-container > .ifood-content > h2 {
+        font-size: 32px;
+        width: 100%;
+        max-width: 300px;
+
+    }
+
+    main > .section-ifood > .ifood-container > .ifood-content > a {
+        width: 100%;
+        max-width: 300px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    main > .section-ifood > .ifood-container > .ifood-img {
+        width: 150px;
+    }
+}
