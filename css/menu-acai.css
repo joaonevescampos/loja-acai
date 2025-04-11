@@ -49,18 +49,18 @@ main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > img
 }
 
 main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-300 {
-    width: 130px;
-    top: -140px;
+    width: 80px;
+    top: -80px;
 }
 
 main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-500 {
-    width: 150px;
-    top: -160px;
+    width: 95px;
+    top: -95px;
 }
 
 main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-700 {
-    width: 170px;
-    top: -190px;
+    width: 110px;
+    top: -110px;
 }
 
 main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .acai-1l {
@@ -68,7 +68,7 @@ main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > .ac
     top: -120px;
     left: 50%;
     transform: translateX(-50%);
-    width: 190px;
+    width: 200px;
 }
 
 main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option > div {

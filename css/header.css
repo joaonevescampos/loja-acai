@@ -87,8 +87,8 @@ header > .header-content-container > .acai-marketing {
 header > .header-content-container > .acai-cup {
     position: absolute;
     bottom: 0;
-    left: 500px;
-    width: 320px;
+    left: 520px;
+    width: 180px;
     rotate: 15deg;
 }
 
@@ -124,8 +124,8 @@ header > .header-content-container > .acai-cup {
     }
     
     header > .header-content-container > .acai-cup {
-        left: 360px;
-        width: 280px;
+        left: 400px;
+        width: 150px;
     }
 }
 
@@ -154,8 +154,8 @@ header > .header-content-container > .acai-cup {
     }
     
     header > .header-content-container > .acai-cup {
-        left: 350px;
-        width: 250px;
+        left: 400px;
+        width: 150px;
     }
 }
 
@@ -200,7 +200,7 @@ header > .header-content-container > .acai-cup {
     }
   
     header > .header-content-container > .acai-cup {
-        left: 200px;
-        width: 150px;
+        left: 210px;
+        width: 110px;
     }
 }

@@ -51,12 +51,13 @@ main > .section-ifood > .ifood-container > .ifood-content > a {
 
 @media (max-width: 768px) {
     main > .section-ifood {
-        height: 320px;
+        height: auto;
+        padding-top: 30px;
     }
 
     main > .section-ifood > .ifood-container {
         padding: 0 30px;
-        gap: 40px;
+        gap: 20px;
     }
     
     main > .section-ifood > .ifood-container > .ifood-content{
@@ -65,7 +66,7 @@ main > .section-ifood > .ifood-container > .ifood-content > a {
     }
     
     main > .section-ifood > .ifood-container > .ifood-content > h2 {
-        font-size: 32px;
+        font-size: 28px;
         width: 100%;
         max-width: 300px;
 

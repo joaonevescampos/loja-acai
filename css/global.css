@@ -33,3 +33,17 @@ ul {
     font-style: normal;
 }
 
+.whatsapp-btn-fixed {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    background-color: #189D0D;
+    border-radius: 50%;
+    padding: 15px;
+}
