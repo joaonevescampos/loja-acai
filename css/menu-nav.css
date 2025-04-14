@@ -13,6 +13,7 @@
         top: 20px;
         right: 20px;
         cursor: pointer;
+        z-index: 999;
     }
     
     .menu-navegation-mobi {
