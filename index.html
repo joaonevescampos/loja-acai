@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/menu-acai.css">
+    <link rel="stylesheet" href="./css/menu-nav.css">
     <link rel="stylesheet" href="./css/ifood.css">
     <link rel="stylesheet" href="./css/maps.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -13,17 +14,31 @@
     <title>Loja de açaí</title>
 </head>
 <body>
-    <header>
+    <header id="home">
         <p class="site-logo">Sua Logo</p>
         <nav class="menu-navegation">
             <ul>
-                <li>Home</li>
-                <li>Peça pelo iFood</li>
-                <li>Cardápio</li>
-                <li>Mapa</li>
-                <li>Sobre</li>
-                <li>Contato</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ifood">Peça pelo iFood</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#map">Mapa</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
+        </nav>
+        <img src="./assets/img/menu.svg" alt="menu de navegação" width="30px" class="menu-open-img">
+        
+        <nav class="menu-navegation-mobi">
+            <img src="./assets/img/close.svg" alt="fechar menu" width="25px" class="menu-close-img">
+            <ul>
+                <li><a href="#home" class="menu-link">Home</a></li>
+                <li><a href="#ifood" class="menu-link">Peça pelo iFood</a></li>
+                <li><a href="#menu" class="menu-link">Cardápio</a></li>
+                <li><a href="#map" class="menu-link">Mapa</a></li>
+                <li><a href="#about" class="menu-link">Sobre</a></li>
+                <li><a href="#contact" class="menu-link">Contato</a></li>
+            </ul>
+            <img src="./assets/img/mulher-tomando-acai.png" alt="mulher tomando açaí" class="acai-marketing">
         </nav>
         <section class="header-content-container">
             <section class="headline">
@@ -36,7 +51,7 @@
         </section>
     </header>
     <main>
-        <section class="section-menu-acai-options" id="menu-acai">
+        <section class="section-menu-acai-options" id="menu">
             <h2>Monte o seu açaí do seu jeito</h2>
             <div class="menu-acai-options">
                 <section class="menu-acai-option">
@@ -74,7 +89,7 @@
             </div>
             <a href="" class="see-complete-menu-btn">Ver cardápio completo</a>
         </section>
-        <section class="section-ifood">
+        <section class="section-ifood" id="ifood">
             <div class="ifood-container">
                 <div class="ifood-content">
                     <h2>Peça agora o seu açai no iFood!</h2>
@@ -83,14 +98,14 @@
                 <img src="./assets/img/ifood.png" alt="ifood" class="ifood-img">
             </div>
         </section>
-        <section class="section-maps">
+        <section class="section-maps" id="map">
             <img src="./assets/img/map.png" alt="mapa">
             <section class="map-content">
                 <h2>Encontre nosso açaí no Google Maps</h2>
                 <a href="">Ver no maps</a>
             </section>
         </section>
-        <section class="section-about">
+        <section class="section-about" id="about">
             <div class="about-container">
                 <section class="about-content">
                     <h2>Conheça um pouco sobre a nossa história...</h2>
@@ -103,7 +118,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
         <div class="footer-container">
             <section class="footer-content">
                 <div class="adress-container">
@@ -119,19 +134,19 @@
                 <h2>Nos siga nas redes sociais</h2>
                 <div class="social-medias-container">
                     <a href="">
-                        <img src="./assets//img/social/facebook.svg" alt="">
+                        <img src="./assets//img/social/facebook.svg" alt="facebook">
                     </a>
                     <a href="">
-                        <img src="./assets//img/social/instagram.svg" alt="">
+                        <img src="./assets//img/social/instagram.svg" alt="instagram">
                     </a>
                     <a href="">
-                        <img src="./assets//img/social/tiktok.svg" alt="">
+                        <img src="./assets//img/social/tiktok.svg" alt="tiktok">
                     </a>
                     <a href="">
-                        <img src="./assets//img/social/email.svg" alt="">
+                        <img src="./assets//img/social/email.svg" alt="email">
                     </a>
                     <a href="">
-                        <img src="./assets//img/social/whatsapp.svg" alt="">
+                        <img src="./assets//img/social/whatsapp.svg" alt="whatsapp">
                     </a>
                 </div>
             </section>
@@ -141,5 +156,9 @@
     <a href="" class="whatsapp-btn-fixed">
         <img src="./assets/img/social/whatsapp-white.svg" alt="">
     </a>
+    <a href="#home" class="to-up-fixed">
+        <img src="./assets/img/up.svg" alt="seta para cima">
+    </a>
+    <script src="./js/menu-nav.js"></script>
 </body>
 </html>

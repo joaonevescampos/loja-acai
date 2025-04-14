@@ -1,7 +1,7 @@
 main > .section-menu-acai-options {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 140px;
     align-items: center;
     justify-content: center;
     padding: 60px;
@@ -148,6 +148,8 @@ main > .section-menu-acai-options > .see-complete-menu-btn {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: -80px;
+
 }
 
 @media (max-width: 1024px) {
@@ -161,6 +163,11 @@ main > .section-menu-acai-options > .see-complete-menu-btn {
     main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option{
         margin-bottom: 80px;
     }
+
+    main > .section-menu-acai-options > .see-complete-menu-btn {
+        width: 100%;
+        margin-top: -160px;
+    }
 }
 @media (max-width: 768px) {
     main > .section-menu-acai-options {
@@ -171,22 +178,24 @@ main > .section-menu-acai-options > .see-complete-menu-btn {
         font-size: 36px;
         line-height: 48px;
         width: 250px;
+        margin-bottom: -20px;
     }
 
     main > .section-menu-acai-options > .menu-acai-options  {
         display: flex;
         flex-wrap: wrap;
-        gap: 35px;
+        gap: 40px;
         width: 100%;
     }
 
     main > .section-menu-acai-options > .menu-acai-options > .menu-acai-option{
         margin-bottom: 80px;
         max-width: none;
+        height: fit-content;
     }
 
     main > .section-menu-acai-options > .see-complete-menu-btn {
         width: 100%;
-        margin-top: -120px;
+        margin-top: -170px;
     }
 }
