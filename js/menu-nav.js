@@ -10,19 +10,19 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
   
-    // Abre o menu
+   // Abre o menu
     menuIconOpen.addEventListener('click', () => {
-      menuContent.style.display = 'block';
-      menuIconClose.style.display = 'block';
-      menuContent.style.transition = 'all 0.3s ease-in-out';
+        menuContent.style.display = 'block';
+        menuIconClose.style.display = 'block';
+        document.body.classList.add('no-scroll'); // <-- aqui bloqueia o scroll
     });
   
-    // Fecha o menu
-    const closeMenu = () => {
-      menuContent.style.display = 'none';
-      menuIconClose.style.display = 'none';
-    };
-  
+  // Fecha o menu
+  const closeMenu = () => {
+    menuContent.style.display = 'none';
+    menuIconClose.style.display = 'none';
+    document.body.classList.remove('no-scroll'); // <-- aqui libera o scroll
+  };
     // Clica no botão de fechar
     menuIconClose.addEventListener('click', closeMenu);
   
